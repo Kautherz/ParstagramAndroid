@@ -73,8 +73,6 @@ public class LoginActivity extends AppCompatActivity {
                     return;
                 }
                 goMainActivity();
-                Toast.makeText(LoginActivity.this, "Success with login!", Toast.LENGTH_SHORT).show();
-
             }
         });
     }
@@ -92,7 +90,6 @@ public class LoginActivity extends AppCompatActivity {
                     return;
                 }
                 goMainActivity();
-                Toast.makeText(LoginActivity.this, "Success with sign up!", Toast.LENGTH_SHORT).show();
 
             }
         });
